@@ -10,7 +10,6 @@ print("1. Дюймы в сантиметры\n"
       "10. Литры в галлоны\n"
       "11. Пинты в литры\n"
       "12. Литры в пинты\n")
-
 def inch_to_sant(number):
     sant = number*2.54
     return sant
@@ -25,7 +24,7 @@ def mile_to_kilo(number):
 
 def kilo_to_mile(number):
     kilo = number*1.6
-    return kilo
+    return inch
 
 def pound_to_kilo(number):
     kilo = number/2.2
